@@ -76,3 +76,5 @@ Les dépendances sont listées dans le fichier `requirements.txt` :
 ## 📞 Contact
 
 Si vous avez des questions ou rencontrez des problèmes, veuillez ouvrir une issue sur ce dépôt.
+
+
