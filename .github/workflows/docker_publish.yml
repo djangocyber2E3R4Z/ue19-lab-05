@@ -39,7 +39,7 @@ jobs:
         with:
           context: .
           push: true
-          # CORRECTION CLÉ : Utilisation du filtre | lowercase et des guillemets doubles (")
+          # CE SONT CES DEUX LIGNES QUI DOIVENT ÊTRE EN GUILLEMETS DOUBLES (")
           tags: |
             "ghcr.io/${{ github.repository_owner | lowercase }}/${{ env.IMAGE_NAME }}:latest"
             "ghcr.io/${{ github.repository_owner | lowercase }}/${{ env.IMAGE_NAME }}:${{ github.sha }}"
